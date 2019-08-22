@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IbuCollection", "IbuCollection\IbuCollection.csproj", "{A8B5A914-C8AF-497D-865E-1BD653E45FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B5A914-C8AF-497D-865E-1BD653E45FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B5A914-C8AF-497D-865E-1BD653E45FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B5A914-C8AF-497D-865E-1BD653E45FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B5A914-C8AF-497D-865E-1BD653E45FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64383F7A-BE19-4AE7-98D3-E5CE798CF009}
+	EndGlobalSection
+EndGlobal
