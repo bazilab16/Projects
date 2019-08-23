@@ -12,8 +12,11 @@ namespace IbuCollection.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IbuCollection.Data.IbuCollectionDbContext ibuCollectionDbContext = new Data.IbuCollectionDbContext();
+
         public ActionResult Index()
         {
+            
             return View();
         }
 
