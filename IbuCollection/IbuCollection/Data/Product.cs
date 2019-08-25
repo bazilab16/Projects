@@ -20,7 +20,7 @@ namespace IbuCollection.Data
         public string Description { get; set; }
         public string Code { get; set; }
         public string SupplierName { get; set; }
-        public Nullable<System.DateTime> DtCreated { get; set; }
+        public Nullable<System.DateTime> EntryDate { get; set; }
         public Nullable<long> CreatedById { get; set; }
         public string ExtraInfo { get; set; }
         public Nullable<int> Status { get; set; }

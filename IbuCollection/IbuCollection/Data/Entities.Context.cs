@@ -13,10 +13,10 @@ namespace IbuCollection.Data
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class IbuCollectionDbContext : DbContext
+    public partial class IbuCollectionEntities : DbContext
     {
-        public IbuCollectionDbContext()
-            : base("name=IbuCollectionDbContext")
+        public IbuCollectionEntities()
+            : base("name=IbuCollectionEntities")
         {
         }
     

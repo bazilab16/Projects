@@ -1,0 +1,19 @@
+﻿
+@model List<IbuCollection.Data.Product>
+
+<a href="/Products/Create">Create</a>
+
+@foreach (var product in Model)
+{
+    <h2> Product:</h2>
+    <ul>
+        <li>Product Name: @product.Name</li>
+        <li>Product Category: @product.ProductCategory.Name</li>
+        <li> Description: @product.Description</li>
+        <li>Code: @product.Code</li>
+        <li>Product Supplier Name: @product.SupplierName</li>
+        <li> Entry Date: @product.EntryDate</li>
+        <li> Created Id: @product.CreatedById</li>
+        
+    </ul>
+}

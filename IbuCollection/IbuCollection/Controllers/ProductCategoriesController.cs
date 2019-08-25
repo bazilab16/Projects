@@ -12,7 +12,7 @@ namespace IbuCollection.Controllers
 {
     public class ProductCategoriesController : Controller
     {
-        private IbuCollectionDbContext db = new IbuCollectionDbContext();
+        private IbuCollectionEntities db = new IbuCollectionEntities();
 
         // GET: ProductCategories
         public ActionResult Index()

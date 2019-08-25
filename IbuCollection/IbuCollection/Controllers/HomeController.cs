@@ -12,7 +12,7 @@ namespace IbuCollection.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IbuCollection.Data.IbuCollectionDbContext ibuCollectionDbContext = new Data.IbuCollectionDbContext();
+        private readonly IbuCollection.Data.IbuCollectionEntities IbuCollectionEntities = new Data.IbuCollectionEntities();
 
         public ActionResult Index()
         {
